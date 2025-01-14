@@ -15,10 +15,6 @@ var http = require('http');
 var port = normalizePort(process.env.PORT || '3002');
 app.set('port', port);
 
-app.get('/home', (req, res) => {
-  res.status(200).json('Welcome, your app is working well');
-})
-
 /**
  * Create HTTP server.
  */
