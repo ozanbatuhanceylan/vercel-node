@@ -66,7 +66,6 @@ router.get('/create-peaka-project', function(req, res, next) {
 });
 
 router.post('/connect', function(req, res, next){
-  const apiKey = req.body.apiKey;
   const projectId = req.body.projectId
   initPeakaSession(projectId).then(data => {
     console.log(data)
