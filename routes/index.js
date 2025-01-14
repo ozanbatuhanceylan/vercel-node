@@ -52,8 +52,6 @@ const createApiKey = async (projectId, projectName) => {
   return resp.json()
 }
 
-
-
 /* GET home page. */
 router.get('/create-peaka-project', function(req, res, next) {
   const projectName = idGenerator();
