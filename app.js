@@ -36,10 +36,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => {
-  res.status(200).json('Welcome, your app is working well');
-})
-
 app.use('/', indexRouter);
 
 
