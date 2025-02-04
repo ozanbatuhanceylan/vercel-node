@@ -32,7 +32,7 @@ const initPeakaSession = async (apiKey) => {
     },
     body: JSON.stringify({
       projectId: apiKey,
-      theme: "myDark",
+      theme: "light",
       themeOverride: false,
       featureFlags: {
         queries: false,
